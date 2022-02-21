@@ -29,7 +29,7 @@ def optimize(weights,tickers,start,end,calc_window,rf_rate,short=False,
         
         short = bool, default = 'False', if true weight bounds -1 to 1
         
-        clean; bool, defalt = 'False', if true, the function will drop NA rows
+        clean; bool, default = 'False', if true, the function will drop NA rows
         '''
         start = datetime.strptime(start,'%Y-%m-%d')
         end = datetime.strptime(end,'%Y-%m-%d')
